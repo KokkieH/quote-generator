@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    text-align: center;
+    background: fixed center no-repeat url( "https://res.cloudinary.com/kokkieh/image/upload/a_180/v1442164901/Shakespeare%20Quote%20generator/scroll_background.jpg") #cbb385;
+    background-size: 100% 100%;
+  }
+  .wrapper {
+    min-height: 100vh;
+    height: auto !important;
+    height: 100vh;
+    margin: 0 auto -3em; 
+    padding: 1em;
+  }
+  .footer, .push {
+    height: 3em; 
+  }
+  /*
+  Sticky Footer by Ryan Fait
+  http://ryanfait.com/
+  */
+  .footer {
+    padding: 1em;
+    background-color: rgba(203,179,133,0.7);
+    font-size: 1.5vmin;
+  }
+
+  h1 {
+    font-family: 'Italianno', Brush Script MT, cursive;
+    font-size: 9vmin;
+    margin-top: 1em;
+    margin-bottom: 5rem;
+  }
+  .centered {
+    width: 100%;
+    max-width: 70vmax;
+    margin: auto;
+  }
+  #printQuote {
+    font-family: 'Italianno', Brush Script MT, cursive;
+    font-size: 4vmin;
+  }
+  #author {
+    font-family: 'Italianno', Brush Script MT, cursive;
+    font-size: 3vmin;
+  }
+  #button {
+    cursor: pointer;
+  }
